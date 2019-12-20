@@ -11,7 +11,7 @@ public:
     Robot(std::string n);
     ~Robot();
     virtual void sePresenter();
-    void attaquer();
+    void attaquer(Robot &autre);
     int getVie();
     void modifVie(int difference);
 };
@@ -36,7 +36,7 @@ protected:
 public:
     RobotBerserker(std::string n);
     ~RobotBerserker();
-    void toutDefoncer();
+    void toutDefoncer(Robot &autre);
     virtual void sePresenter();
 };
 
