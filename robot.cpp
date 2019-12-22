@@ -28,6 +28,11 @@ void Robot::modifVie(int difference)
     {
         _sante = 100;
     }
+
+    if (_sante < 0)
+    {
+        _sante = 0;
+    }
 }
 
 void Robot::attaquer(Robot *autre)
@@ -35,6 +40,7 @@ void Robot::attaquer(Robot *autre)
     autre->modifVie(-20);
     cout << _nom << " attaque ";
     autre->showNom();
+    cout << " et lui enleve 20 points de vie \n\n";
 }
 
 void Robot::showNom()
@@ -63,6 +69,7 @@ void RobotMedecin::soigner(Robot *autre)
     autre->modifVie(_soins);
     cout << _nom << " soigne ";
     autre->showNom();
+    cout << " et lui rajoute 50 points de vie \n\n";
 }
 
 void RobotMedecin::showNom()
@@ -109,6 +116,7 @@ void RobotBerserker::toutDefoncer(Robot *autre)
     autre->modifVie(-75);
     cout << _nom << " defonce ";
     autre->showNom();
+    cout << " et lui enleve 75 points de vie \n\n";
 }
 
 void RobotBerserker::showStats()
