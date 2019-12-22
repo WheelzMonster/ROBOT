@@ -560,8 +560,8 @@ int main()
     addition(nbrEntier1, nbrEntier2);
 
     std::cout << "choisissez deux nombre a virgule a additionner (utiliser le . pour la virgule)" << std::endl;
-    int nbrDecimal1;
-    int nbrDecimal2;
+    double nbrDecimal1;
+    double nbrDecimal2;
     cin >> nbrDecimal1;
     cin >> nbrDecimal2;
 
