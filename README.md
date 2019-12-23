@@ -1,6 +1,6 @@
 # ROBOT
 
-Bonjour, si vous souhaitez faire focntionner ce programme sous linux, il ne faut pas tenir compte du prog et prog.exe, il faut compiler une deuxime fois sous linux avec g++
+Bonjour, si vous souhaitez faire focntionner ce programme sous linux, il ne faut pas tenir compte du prog et prog.exe, il faut compiler une deuxime fois sous linux avec g++ en faisant  g++ -std=c++14 *.cpp -o prog
 
 Si vous souhaitez utiliser ce programme sous Windows, téléchargez le dossier, mais NE PAS utiliser le prog.exe. Ouvrez juste powershell dans le dossier et faites ./prog
 
