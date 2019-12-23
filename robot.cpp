@@ -136,7 +136,7 @@ RobotHandicape::RobotHandicape(string n) : Robot(n)
 
 void RobotHandicape::sePresenter()
 {
-    cout << "Bonjour, je ne suis qu'un amas de pièce detachees, je suis " << _nom << " le Robot handicape ! \n Je ne fais rien de special, part couter de l'argent au contribuable et la corporation Xerca. \n Personne ne me choisit, mais je coute de l'argent, c'est benef pour moi! \n D'ailleurs je n'ai que " << _sante << " points de sante et je ne peux pas être soigne. Je coute 11 UNITES ALGOREENNES\n"
+    cout << "Bonjour, je ne suis qu'un amas de pieces detachees, je suis " << _nom << " le Robot handicape ! \n Je ne fais rien de special, part couter de l'argent au contribuable et la corporation Xerca. \n Personne ne me choisit, mais je coute de l'argent, c'est benef pour moi! \n D'ailleurs je n'ai que " << _sante << " points de sante et je ne peux pas être soigne. Je coute 11 UNITES ALGOREENNES\n"
          << endl;
 }
 
